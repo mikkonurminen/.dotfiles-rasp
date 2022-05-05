@@ -9,7 +9,8 @@ alias mkdir="mkdir -p"
 alias mv="mv -i" 
 alias rm="rm -i"
 
-alias dot="cd ~/.config/"
+alias conf="cd ~/.config/"
+alias dot="cd ~/.dotfiles-rasp/"
 
 alias v="nvim"
 alias vi="nvim"
