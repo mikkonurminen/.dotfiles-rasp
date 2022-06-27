@@ -1,12 +1,13 @@
 let g:coc_global_extensions = [
-    \ 'coc-python',
+    \ 'coc-pyright',
     \ 'coc-pairs',
     \ 'coc-tsserver',
     \ 'coc-html',
     \ 'coc-css',
     \ 'coc-prettier',
     \ 'coc-json',
-    \ 'coc-sql'
+    \ 'coc-sql',
+    \ 'coc-eslint'
     \ ]
 
 " TextEdit might fail if hidden is not set.

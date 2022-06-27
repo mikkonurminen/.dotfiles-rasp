@@ -2,9 +2,9 @@
 
 echo "curl nodejs..."
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo bash -
-sudo apt-get install -y nodejs \
-  neofetch \
-  nvim \
+sudo apt-get install -y nodejs
+sudo apt-get install -y neofetch \
+  neovim \
   nginx
 
 # Neovim plug

@@ -3,6 +3,10 @@
 echo "Upgrading system..."
 sudo apt-get -y update && sudo apt-get -y upgrade
 
+echo "Configure git"
+git config --global user.name "mikkonurminen"
+git config --global user.email "mmnurm@gmail.com"
+
 echo "Install packages"
 source ~/.dotfiles-rasp/packages.sh
 
@@ -11,10 +15,6 @@ source ~/.dotfiles-rasp/symlink.sh
 
 echo "Install nvim packages"
 nvim +PlugInstall +qall
-
-echo "Configure git"
-git config --global user.name "mikkonurminen"
-git config --global user.email "mmnurm@gmail.com"
 
 echo "Configure nginx..."
 sudo cp ~/.dotfiles-rasp/nginx/mintranet /etc/nginx/sites-available/mintranet

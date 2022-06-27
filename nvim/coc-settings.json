@@ -3,6 +3,9 @@
     "css",
     "markdown",
     "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
     "graphql",
     "html",
     "yaml",
@@ -13,5 +16,12 @@
 
   // python config
   "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true
+  "python.linting.pylintEnabled": true,
+
+  // Tss
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false
 }
