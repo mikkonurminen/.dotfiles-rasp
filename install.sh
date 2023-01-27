@@ -19,7 +19,7 @@ nvim +PlugInstall +qall
 echo "Configure nginx..."
 sudo cp ~/.dotfiles-rasp/nginx/mintranet /etc/nginx/sites-available/mintranet
 sudo unlink /etc/nginx/sites-enabled/default
-sudo ln -s /etc/nginx/site-available/mintranet /etc/nginx/sites-enabled/
+sudo cp ~/.dotfiles-rasp/nginx/mintranet /etc/nginx/sites-enabled/mintranet
 
 echo "Mintranet..."
 sudo mkdir -p /var/www/mintranet
