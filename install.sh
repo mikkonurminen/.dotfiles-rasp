@@ -28,7 +28,7 @@ cd ~/projects
 git clone https://github.com/mikkonurminen/mintranet.git
 cd ~/projects/mintranet
 echo "Update npm"
-sudo npm install npm -g
+sudo npm install -g npm@latest 
 echo "Install npm modules"
 npm install
 echo "Build site"
